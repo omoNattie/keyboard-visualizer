@@ -1,0 +1,53 @@
+[
+    {
+        "name": "A",
+        "keycode": "KEY_A",
+
+        "px": 10,
+        "py": 10,
+
+        "ButtonWidth": 40,
+        "ButtonHeight": 40
+    },
+    {
+        "name": "B",
+        "keycode": "KEY_B",
+
+        "px": 60,
+        "py": 10,
+
+        "ButtonWidth": 40,
+        "ButtonHeight": 40
+    },
+    {
+        "name": "C",
+        "keycode": "KEY_C",
+
+        "px": 110,
+        "py": 10,
+
+        "ButtonWidth": 40,
+        "ButtonHeight": 40
+    },
+    {
+        "name": "UP",
+        "keycode": "KEY_SPACE",
+
+        "px": 30,
+        "py": 60,
+
+        "ButtonWidth": 100,
+        "ButtonHeight": 40
+    },
+    {
+        "name": "away",
+        "keycode": "KEY_SEMICOLON",
+
+        "px": 230,
+        "py": 150,
+
+        "ButtonWidth": 60,
+        "ButtonHeight": 40
+    }
+
+]

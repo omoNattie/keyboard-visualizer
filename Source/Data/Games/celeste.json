@@ -1,0 +1,73 @@
+[
+    {
+        "name": "w",
+        "keycode": "KEY_UP",
+
+        "px": 205,
+        "py": 50,
+
+        "ButtonWidth": 40,
+        "ButtonHeight": 40
+    },
+    {
+        "name": "s",
+        "keycode": "KEY_DOWN",
+
+        "px": 205,
+        "py": 100,
+
+        "ButtonWidth": 40,
+        "ButtonHeight": 40
+    },
+    {
+        "name": "a",
+        "keycode": "KEY_LEFT",
+
+        "px": 155,
+        "py": 100,
+
+        "ButtonWidth": 40,
+        "ButtonHeight": 40
+    },
+    {
+        "name": "d",
+        "keycode": "KEY_RIGHT",
+
+        "px": 255,
+        "py": 100,
+
+        "ButtonWidth": 40,
+        "ButtonHeight": 40
+    },
+
+    {
+        "name": "z",
+        "keycode": "KEY_Z",
+
+        "px": 5,
+        "py": 70,
+
+        "ButtonWidth": 40,
+        "ButtonHeight": 40
+    },
+    {
+        "name": "x",
+        "keycode": "KEY_X",
+
+        "px": 55,
+        "py": 70,
+
+        "ButtonWidth": 40,
+        "ButtonHeight": 40
+    },
+    {
+        "name": "c",
+        "keycode": "KEY_C",
+
+        "px": 105,
+        "py": 70,
+
+        "ButtonWidth": 40,
+        "ButtonHeight": 40
+    }
+]   
