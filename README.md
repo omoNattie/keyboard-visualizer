@@ -14,6 +14,8 @@ You must use json to make your layout.
 
 [A Json Sample](https://github.com/omoNattie/keyboard-visualizer/blob/master/Source/Data/sample.json)
 
+[Some Game Layouts](https://github.com/omoNattie/keyboard-visualizer/tree/master/Source/Data/Games)
+
 ### Compile it yourself:
 
 ### This app uses  dotnet 7.0, if you can only run 6.0 please add --self-contained true to the publish.
@@ -34,6 +36,27 @@ dotnet publish --output ./release -p:PublishSingleFile=true --self-contained tru
 cd release
 
 ./keyboard --help
+```
+
+#### Running your first keyboard.
+Keyboards are located in Source/Data
+```bash
+./keyboard -p Source/Data/Games/celeste.json -r default
+```
+
+To change the resolution just type
+```bash
+./keyboard -p Source/Data/Games/celeste.json -r 400 300
+```
+400 meaning width and 300 meaning height
+
+#### Creating your first layout
+Just make a json file and use the sample to guide yourself!
+Keep in mind all layouts need to be Json Arrays
+```json
+[
+  "..."
+]
 ```
 
 #### Moving to PATH
