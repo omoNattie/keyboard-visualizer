@@ -1,0 +1,204 @@
+﻿## All the raylib keys
+
+# Letters
+KEY_A - a
+
+KEY_B - b
+
+KEY_C - c
+
+KEY_D - d
+
+KEY_E - e
+
+KEY_F - f
+
+KEY_G - g
+
+KEY_H - h
+
+KEY_I - i
+
+KEY_J - j
+
+KEY_K - k
+
+KEY_L - l
+
+KEY_M - m
+
+KEY_N - n
+
+KEY_O - o
+
+KEY_P - p
+
+KEY_Q - q
+
+KEY_R - r
+
+KEY_S - s
+
+KEY_T - t
+
+KEY_U - u
+
+KEY_V - v
+
+KEY_W - w
+
+KEY_X - x
+
+KEY_Y - y
+
+KEY_Z - z
+
+# Numbers
+
+KEY_ONE - 1
+
+KEY_TWO - 2
+
+KEY_THREE - 3
+
+KEY_FOUR - 4
+
+KEY_FIVE - 5
+
+KEY_SIX - 6
+
+KEY_SEVEN - 7
+
+KEY_EIGHT - 8
+
+KEY_NINE - 9
+
+KEY_ZERO - 0
+
+KEY_KP_1
+
+KEY_KP_2
+
+KEY_KP_3
+
+KEY_KP_4
+
+KEY_KP_5
+
+KEY_KP_6
+
+KEY_KP_7
+
+KEY_KP_8
+
+KEY_KP_9
+
+KEY_KP_0
+
+KEY_F1
+
+KEY_F2
+
+KEY_F3
+
+KEY_F4
+
+KEY_F5
+
+KEY_F6
+
+KEY_F7
+
+KEY_F8
+
+KEY_F9
+
+KEY_F10
+
+KEY_F11
+
+KEY_F12
+
+# Characters
+
+KEY_ESCAPE - esc
+
+KEY_SPACE - space bar
+
+KEY_NULL - none
+
+KEY_MINUS - -_
+
+KEY_EQUAL - =+
+
+KEY_KP_EQUAL
+
+KEY_BACKSPACE - backspace
+
+KEY_BACKSLASH - \
+
+KEY_TAB - tab
+
+KEY_CAPSLOCK - caps
+
+KEY_LEFT_SHIFT
+
+KEY_RIGHT_SHIFT
+
+KEY_LEFT_CONTROL
+
+KEY_RIGHT_CONTROL
+
+KEY_LEFT_SUPER - mod/win
+
+KEY_RIGHT_SUPER - mod/win
+
+KEY_LEFT_ALT
+
+KEY_RIGHT_ALT
+
+KEY_UP - up
+
+KEY_DOWN - down
+
+KEY_LEFT - left
+
+KEY_RIGHT - right
+
+KEY_ENTER
+
+KEY_KP_ENTER
+
+KEY_SEMICOLON - ;:
+
+KEY_LEFT_BRACKET - {[
+
+KEY_RIGHT_BRACKET - ]}
+
+KEY_APOSTROPHE - '"
+
+KEY_COMMA - ,<
+
+KEY_PERIOD - .>
+
+KEY_SLASH - /?
+
+KEY_GRAVE
+
+KEY_HOME
+
+KEY_INSERT
+
+KEY_KP_MENU
+
+KEY_VOLUME_UP
+
+KEY_VOLUME_DOWN
+
+KEY_PAGE_UP
+
+KEY_PAGE_DOWN
+
+KEY_PAUSE
+
+KEY_NUM_LOCK

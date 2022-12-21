@@ -1,20 +1,25 @@
-﻿using Raylib_cs;
+﻿using System.Reflection;
+using Raylib_cs;
 using keyboard.Source.Code.CLI;
 
 using keyboard.Source.Code;
 
-namespace keyboard;
+namespace keyboard.Source;
 
 public static class KeyboardVisualizer
 {
-    public static Color KeyColor = Color.GRAY;
-    public static Color TextColor = Color.RAYWHITE;
-
+    public static readonly Fonts Roboto = new();
     public static void Main(string[] args)
     {
         //* Run once
         CLI_MAIN.CliSize(args);
+
+        var startupPath = AppDomain.CurrentDomain.BaseDirectory;
+        var icon = Raylib.LoadImage($"{startupPath}/Source/Assets/Images/A.png");
+        Raylib.SetWindowIcon(icon);
+
         Raylib.InitWindow(CLI_MAIN.Width, CLI_MAIN.Height, "Keyboard Visualizer");
+        Raylib.SetTargetFPS(60);
 
         while (!Raylib.WindowShouldClose())
         {

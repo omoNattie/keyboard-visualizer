@@ -1,22 +1,24 @@
+using System;
+
 namespace keyboard.Source.Code.CLI;
 
 public static class CLI_MAIN
 {
     public static string? PATH;
 
-    public static int Width = 300;
+    public static int Width = 330;
     public static int Height = 200;
 
     public static void CliSize(string[] args)
     {
-        string Version = "Version 0.3 Build Release 1 - BETA";
+        string Version = "Version 0.5 Build Release 2";
 
         string HelpString = """
             Description:
                 Visualizes the keyboard based on your settings.
 
             Usage: keyboard [flags]
-            Example: keyboard --path ~/game.json --resolution default
+            Example: keyboard --path ~/game.json --resolution 300 200
 
             Flags:
                 --help          Show this help message and exit.
@@ -63,10 +65,10 @@ public static class CLI_MAIN
                         Console.WriteLine($"Invalid resolution: {args[3]}x{args[4]}\n" +
                         "Either one or both arguments are wrong, please use ints or refer to Keyboard --help. Using default configs.");
                         
-                        Width = 300;
+                        Width = 330;
                         Height = 200;
                     }
-                }
+                } 
             break;
             
             case "-h":
@@ -78,6 +80,7 @@ public static class CLI_MAIN
             case "-v":
             case "--version":
                 Console.WriteLine(Version);
+                Environment.Exit(0);
             break;
         }
     }

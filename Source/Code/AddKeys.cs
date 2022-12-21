@@ -1,3 +1,4 @@
+using System.IO;
 using Newtonsoft.Json.Linq;
 using keyboard.Source.Code.CLI;
 using Raylib_cs;
@@ -20,14 +21,15 @@ public static class Keys
             int posy = json.py;
 
             string name = json.name;
-            int nameLen = name.Length;
+            var nameLen = name.Length;
 
             int buttonWidth = json.ButtonWidth;
             int buttonHeight = json.ButtonHeight;
 
             KeyboardKey key = json.keycode;
-            Raylib.DrawRectangle(posx, posy, buttonWidth, buttonHeight, Raylib.IsKeyDown(key) ? Color.WHITE : Color.GRAY);
-            Raylib.DrawText(name, posx + buttonWidth / 2 - (6 * nameLen), posy + buttonHeight / 2 - 10, 20, Color.BLACK);
+
+            var button = new Button(posx, posy, name, nameLen, buttonHeight, buttonWidth, key);
+            button.AddButton();
         }
 
     }

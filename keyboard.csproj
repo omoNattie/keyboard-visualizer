@@ -13,4 +13,26 @@
     <PackageReference Include="Raylib-cs" Version="4.2.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="Source\Assets\Fonts\Roboto\*.*">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+
+    <Content Include="Source\Assets\Images\*.*">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+
+    <Content Include="Source\Data\Games\*.*">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+
+    <Content Include="Source\Data\*.*">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Source\Assets\Images\" />
+  </ItemGroup>
+
 </Project>

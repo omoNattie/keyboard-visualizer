@@ -1,0 +1,84 @@
+﻿[
+  {
+    "name": "up",
+    "keycode": "KEY_UP",
+
+    "px": 215,
+    "py": 30,
+
+    "ButtonWidth": 50,
+    "ButtonHeight": 50
+  },
+  {
+    "name": "down",
+    "keycode": "KEY_DOWN",
+
+    "px": 215,
+    "py": 110,
+
+    "ButtonWidth": 50,
+    "ButtonHeight": 50
+  },
+  {
+    "name": "left",
+    "keycode": "KEY_LEFT",
+
+    "px": 155,
+    "py": 70,
+
+    "ButtonWidth": 50,
+    "ButtonHeight": 50
+  },
+  {
+    "name": "right",
+    "keycode": "KEY_RIGHT",
+
+    "px": 275,
+    "py": 70,
+
+    "ButtonWidth": 50,
+    "ButtonHeight": 50
+  },
+
+  {
+    "name": "-",
+    "keycode": "KEY_MINUS",
+
+    "px": 10,
+    "py": 10,
+
+    "ButtonWidth": 40,
+    "ButtonHeight": 40
+  },
+  {
+    "name": "+",
+    "keycode": "KEY_EQUAL",
+
+    "px": 60,
+    "py": 10,
+
+    "ButtonWidth": 40,
+    "ButtonHeight": 40
+  },
+
+  {
+    "name": "A",
+    "keycode": "KEY_A",
+
+    "px": 50,
+    "py": 75,
+
+    "ButtonWidth": 40,
+    "ButtonHeight": 40
+  },
+  {
+    "name": "B",
+    "keycode": "KEY_B",
+
+    "px": 100,
+    "py": 75,
+
+    "ButtonWidth": 40,
+    "ButtonHeight": 40
+  }
+]
