@@ -14,12 +14,12 @@ public static class KeyboardVisualizer
         //* Run once
         CLI_MAIN.CliSize(args);
 
+        Raylib.InitWindow(CLI_MAIN.Width, CLI_MAIN.Height, "Keyboard Visualizer");
+        Raylib.SetTargetFPS(60);
+        
         var startupPath = AppDomain.CurrentDomain.BaseDirectory;
         var icon = Raylib.LoadImage($"{startupPath}/Source/Assets/Images/A.png");
         Raylib.SetWindowIcon(icon);
-
-        Raylib.InitWindow(CLI_MAIN.Width, CLI_MAIN.Height, "Keyboard Visualizer");
-        Raylib.SetTargetFPS(60);
 
         while (!Raylib.WindowShouldClose())
         {
